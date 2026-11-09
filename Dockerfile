@@ -2,8 +2,7 @@
 # Production-Grade Dockerfile for Chief Secretariat NWP Web Portal
 # Base: Official PHP 8.2 with Apache Web Server
 # ==============================================================================
-FROM php:8.2-apache
-
+FROM docker.io/library/php:8.2-apache
 # Set working directory
 WORKDIR /var/www/html
 
